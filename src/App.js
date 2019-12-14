@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import Recipe from "./Recipe";
-
 function App() {
   const APP_ID = "5be1d12a";
   const APP_KEY = "2f4d229c7d30609194ffff438a463799";
@@ -35,6 +34,12 @@ function App() {
 
   return (
     <div className="App">
+      <nav class="navbar navbar-inverse">
+        <a class="navbar-brand" href="#">
+          Home
+        </a>
+        <p class="navbar-text">sturfrying</p>
+      </nav>
       <form onSubmit={getSearch} className="search-form">
         <input
           className="search-bar"

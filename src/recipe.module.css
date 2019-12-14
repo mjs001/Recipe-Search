@@ -1,5 +1,5 @@
 .recipe {
-  background: transparent;
+  background: white;
   box-shadow: 5px 5px 5px 5px grey;
   width: 800px;
   height: 100%;
@@ -7,10 +7,19 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  margin: 0 auto;
   min-width: 40%;
   margin-bottom: 5% !important;
 }
 
 .recipe:hover {
   box-shadow: 5px 5px 5px 10px rgb(78, 78, 78);
+  background: lightgrey;
+}
+
+h1 {
+  font-size: 5rem !important;
+}
+h2 {
+  font-size: 3rem !important;
 }

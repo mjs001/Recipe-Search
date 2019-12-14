@@ -49,7 +49,8 @@ small {
 
 .App {
   min-height: 100vh;
- 
+  background-image: url("./photo3.jpeg");
+  background-size: contain;
 }
 
 .search-form {
@@ -100,4 +101,14 @@ small {
 img {
   border-radius: 100%;
   box-shadow: 2px 2px 2px 2px lightgrey;
+}
+
+nav {
+  width: 100vw;
+  height: 5vh;
+  background: darkslategrey;
+}
+
+.navbar-text {
+  color: rgb(231, 231, 54) !important;
 }
