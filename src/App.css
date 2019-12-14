@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Lilita+One|Nunito+Sans|Roboto+Slab&display=swap");
+h1 {
+  font-family: "Lilita One", cursive;
+}
+li {
+  font-family: "Roboto Slab", serif;
+}
+small {
+  font-family: "Nunito Sans", sans-serif;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +45,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(97, 144, 153, 1) 0%,
+    rgba(255, 236, 138, 1) 51%,
+    rgba(97, 144, 153, 1) 100%
+  );
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+  background: rgba(116, 92, 252, 0.556);
+}
+
+.search-bar:hover {
+  background: rgba(135, 114, 255, 0.315);
+}
+
+.search-button {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 77, 92, 1) 0%,
+    rgba(59, 0, 223, 1) 51%,
+    rgba(0, 95, 113, 1) 100%
+  );
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.search-button:hover {
+  background: linear-gradient(
+    180deg,
+    rgb(0, 51, 61) 0%,
+    rgb(37, 0, 138) 51%,
+    rgb(1, 62, 75) 100%
+  );
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+img {
+  border-radius: 100%;
+  box-shadow: 2px 2px 2px 2px lightgrey;
 }
