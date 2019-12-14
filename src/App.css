@@ -49,12 +49,7 @@ small {
 
 .App {
   min-height: 100vh;
-  background: linear-gradient(
-    90deg,
-    rgba(97, 144, 153, 1) 0%,
-    rgba(255, 236, 138, 1) 51%,
-    rgba(97, 144, 153, 1) 100%
-  );
+ 
 }
 
 .search-form {
