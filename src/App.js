@@ -34,11 +34,18 @@ function App() {
 
   return (
     <div className="App">
-      <nav class="navbar navbar-inverse">
-        <a class="navbar-brand" href="#">
-          Home
-        </a>
-        <p class="navbar-text">sturfrying</p>
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="btn btn-outline-success my-2 my-sm-0">
+          <a class="green" href="./index.html">
+            Home
+          </a>
+        </button>
+        <button class="btn btn-outline-danger my-2 my-sm-0">
+          <a class="red" href="https://mjs-recipe-search.netlify.com/">
+            search for recipe
+          </a>
+        </button>
+        <p class="brand-name navbar-text">sturfrying</p>
       </nav>
       <form onSubmit={getSearch} className="search-form">
         <input
