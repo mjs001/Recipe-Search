@@ -36,7 +36,7 @@ function App() {
     <div className="App">
       <nav class="navbar navbar-dark bg-dark">
         <button class="btn btn-outline-success my-2 my-sm-0">
-          <a class="green" href="./index.html">
+          <a class="green" href="https://sturfrying.netlify.com">
             Home
           </a>
         </button>
